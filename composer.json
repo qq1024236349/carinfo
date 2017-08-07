@@ -1,0 +1,21 @@
+{
+    "name": "xionggang/carinfo",
+    "description": "my first package",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "xionggang",
+            "email": "xionggang@126.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+      "php": ">=5.4.0"
+    },
+    "autoload": {
+      "psr-4": {
+        "Ford\\Focus\\": "src/Ford/Focus"
+    }
+  }
+}
